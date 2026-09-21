@@ -1,8 +1,8 @@
 def show_report(students):
 
-    print("\n================================")
-    print("       STUDENT REPORT")
-    print("================================")
+    print("\n")
+    print(" STUDENT REPORT")
+    print()
 
     if len(students) == 0:
         print("No students available.")
@@ -24,4 +24,4 @@ def show_report(students):
     for course, count in courses.items():
         print(course, ":", count)
 
-    print("================================")
+    print()
