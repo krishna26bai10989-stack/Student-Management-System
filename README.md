@@ -50,6 +50,7 @@ GitHub - Used to store the project online
 
 The project is divided into different files so that the code is easy to understand and manage.
 
+
 Student Management System/
 │
 ├── main.py
@@ -75,6 +76,8 @@ Student Management System/
 ├── README.md
 ├── statement.md
 └── .gitignore
+
+
 
 File Details
 
@@ -130,9 +133,7 @@ Keeps unnecessary files out of Git
 
 When the program is started, the following menu is displayed:
 
-================================
-     STUDENT MANAGEMENT SYSTEM
-================================
+   STUDENT MANAGEMENT SYSTEM
 
 1. Add Student
 2. View Students
