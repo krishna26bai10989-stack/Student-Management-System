@@ -7,9 +7,9 @@ manager = StudentManager()
 
 while True:
 
-    print("\n================================")
-    print("     STUDENT MANAGEMENT SYSTEM")
-    print("================================")
+    print("\n")
+    print("STUDENT MANAGEMENT SYSTEM")
+    print()
 
     print("1. Add Student")
     print("2. View Students")
@@ -48,7 +48,7 @@ while True:
 
         else:
 
-            print("\n===== STUDENTS =====")
+            print("\n STUDENTS ")
 
             for student in students:
 
@@ -56,7 +56,7 @@ while True:
                 print("Roll:", student.roll)
                 print("Course:", student.course)
 
-                print("--------------------")
+                print()
 
 
     # SEARCH STUDENT
